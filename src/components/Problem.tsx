@@ -14,7 +14,7 @@ export default function Problem() {
             <span className="text-red-600">Are You Being Found?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Tourists from outside the Northeast search for services on Google and Instagram before they arrive. If your business website doesn't appear there, you're <span className="font-semibold text-gray-900">losing real customers</span>. Website build trust and make your business a brand and tourists always prefer website.
+            Tourists from outside the Northeast search for <span className="font-semibold text-gray-900">services on Google</span> and Instagram before they arrive. If your business website doesn't appear there, you're <span className="font-semibold text-gray-900">losing real customers</span>. Website build trust and make your business a brand and tourists always prefer website.
           </p>
         </div>
 
