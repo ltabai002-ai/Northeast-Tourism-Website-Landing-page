@@ -12,8 +12,8 @@ export default function TourismBoom() {
             The Perfect Time
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            Turn Tourists into Customers —<br />
-            <span className="text-yellow-300">Build a Stunning Website<br />for Your Northeast Business</span>
+            Over 70 Lacs Tourists Visited North East India in Last 6 months<br />
+            <span className="text-yellow-300">But How Many of Them Found Your Business Online?</span>
           </h2>
 
           <div className="max-w-4xl mx-auto space-y-6 text-lg md:text-xl text-gray-200 leading-relaxed">
