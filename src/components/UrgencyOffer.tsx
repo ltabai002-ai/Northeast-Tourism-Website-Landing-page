@@ -29,7 +29,7 @@ export default function UrgencyOffer() {
             Website at Just <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-600">₹33/Day</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Get a tourism-ready website designed, hosted, and maintained — for the <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-600">cost of one cup of tea</span> per day.
+            Get a tourism-ready website designed, hosted, and maintained — for the <span className="text-3xl font-bold text-green-600">cost of one cup of tea</span> per day.
           </p>
         </div>
 
