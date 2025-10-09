@@ -17,12 +17,9 @@ export default function WhoThisIsFor() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             If You're Part of <span className="text-teal-600">ANYONE OF THESE BUSINESSES</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            If you're running a travel agency, homestay, hotel, café, adventure or event business, congratulations — you're contributing to Northeast's growing tourism economy. But <span className="font-semibold text-gray-900">are you visible online?</span>
-          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {businesses.map((business, index) => {
             const Icon = business.icon;
             return (
@@ -38,6 +35,12 @@ export default function WhoThisIsFor() {
               </div>
             );
           })}
+        </div>
+
+        <div className="text-center">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            If you're running a travel agency, homestay, hotel, café, adventure or event business, congratulations — you're contributing to Northeast's growing tourism economy. But <span className="font-semibold text-gray-900">are you visible online?</span>
+          </p>
         </div>
       </div>
     </section>
