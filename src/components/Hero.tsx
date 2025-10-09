@@ -20,11 +20,10 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fadeIn">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Turn Tourists into Customers —<br />
+            The World Is Discovering the Northeast —<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-sky-300">
-              Build a Stunning Website
-            </span><br />
-            for Your Northeast Business
+              Are They Discovering You?
+            </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
