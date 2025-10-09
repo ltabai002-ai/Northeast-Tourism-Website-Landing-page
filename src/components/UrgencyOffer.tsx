@@ -43,7 +43,6 @@ export default function UrgencyOffer() {
               <div className="text-white">
                 <div className="text-6xl md:text-7xl font-bold mb-2">₹33</div>
                 <div className="text-2xl md:text-3xl mb-2">per day</div>
-                <div className="text-xl opacity-90">That's just ₹33/day</div>
               </div>
             </div>
 
