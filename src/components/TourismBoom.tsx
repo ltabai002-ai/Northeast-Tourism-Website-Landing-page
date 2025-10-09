@@ -19,8 +19,8 @@ export default function TourismBoom() {
             The Perfect Time
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Northeast Tourism is Booming —<br />
-            <span className="text-yellow-300">Don't Miss the Wave!</span>
+            The World Is Discovering the Northeast —<br />
+            <span className="text-yellow-300">Are They Discovering You?</span>
           </h2>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
             In the last few years, tourism in Northeast India has grown rapidly. Now is the best time to establish your business online.
