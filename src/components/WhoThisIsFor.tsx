@@ -15,8 +15,7 @@ export default function WhoThisIsFor() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            If You're Part of Northeast's Tourism Growth,<br />
-            <span className="text-teal-600">This is for You!</span>
+            If You're Part of <span className="text-teal-600">ANYONE OF THESE BUSINESSES</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             If you're running a travel agency, homestay, hotel, café, adventure or event business, congratulations — you're contributing to Northeast's growing tourism economy. But <span className="font-semibold text-gray-900">are you visible online?</span>
