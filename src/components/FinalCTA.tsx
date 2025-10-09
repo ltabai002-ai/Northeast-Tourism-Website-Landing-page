@@ -166,24 +166,6 @@ export default function FinalCTA() {
           )}
         </form>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-          <button
-            onClick={handleGetStarted}
-            className="group px-10 py-5 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold rounded-full text-xl shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-3"
-          >
-            Start My Website @ ₹33/Day
-            <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </button>
-
-          <button
-            onClick={handleWhatsApp}
-            className="group px-10 py-5 bg-green-600 text-white font-bold rounded-full text-xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-3"
-          >
-            <MessageCircle className="w-6 h-6" />
-            Talk to Our Team on WhatsApp
-          </button>
-        </div>
-
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 max-w-3xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
             <div>
