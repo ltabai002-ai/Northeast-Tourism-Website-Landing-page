@@ -6,10 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-sky-500 rounded-lg flex items-center justify-center">
-                <Mountain className="w-6 h-6 text-white" />
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/ltabai logo copy.jpg"
+                alt="LTAB Logo"
+                className="w-12 h-12 object-contain rounded-lg"
+              />
               <span className="text-xl font-bold text-white">Northeast Web Design</span>
             </div>
             <p className="text-gray-400 mb-4 leading-relaxed">
