@@ -88,8 +88,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-teal-400 flex-shrink-0" />
-                <a href="mailto:hello@newebdesign.in" className="hover:text-teal-400 transition-colors duration-300">
-                  hello@newebdesign.in
+                <a href="mailto:Contactus@blueantdigitech.com" className="hover:text-teal-400 transition-colors duration-300">
+                  Contactus@blueantdigitech.com
                 </a>
               </li>
             </ul>
