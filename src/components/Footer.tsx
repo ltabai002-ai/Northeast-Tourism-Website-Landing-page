@@ -12,7 +12,7 @@ export default function Footer() {
                 alt="LTAB Logo"
                 className="w-12 h-12 object-contain rounded-lg"
               />
-              <span className="text-xl font-bold text-white">Northeast Web Design</span>
+              <span className="text-xl font-bold text-white">LTAB AI</span>
             </div>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Empowering Northeast Tourism Through Technology
@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 Northeast Web Design. All rights reserved. Built with passion for Northeast India's tourism industry.
+            © 2025 LTAB AI. All rights reserved. Built with passion for Northeast India's tourism industry.
           </p>
         </div>
       </div>
