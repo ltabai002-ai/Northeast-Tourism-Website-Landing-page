@@ -31,7 +31,7 @@ export default function WhoThisIsFor() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900">{business.label}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 text-center">{business.label}</h3>
                 <div className={`absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r ${business.color} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left`}></div>
               </div>
             );
