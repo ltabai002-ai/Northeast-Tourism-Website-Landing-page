@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Hero />
       <TourismBoom />
-      <WhoThisIsFor />
       <Problem />
+      <WhoThisIsFor />
       <Solution />
       <UrgencyOffer />
       <WhyTrustUs />
