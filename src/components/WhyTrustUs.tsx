@@ -37,7 +37,7 @@ export default function WhyTrustUs() {
             Your Trusted Partner
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Why Northeast Businesses<br />
+            Why Businesses<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-sky-600">
               Trust Us
             </span>
