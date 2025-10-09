@@ -41,7 +41,7 @@ export default function UrgencyOffer() {
                 Limited: Only 25 Spots Available
               </div>
               <div className="text-white">
-                <div className="text-6xl md:text-7xl font-bold mb-2">₹999</div>
+                <div className="text-6xl md:text-7xl font-bold mb-2">₹33</div>
                 <div className="text-2xl md:text-3xl mb-2">per month</div>
                 <div className="text-xl opacity-90">That's just ₹33/day</div>
               </div>
