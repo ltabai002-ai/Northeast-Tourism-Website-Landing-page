@@ -18,8 +18,8 @@ function App() {
       <TourismBoom />
       <Problem />
       <WhoThisIsFor />
-      <Solution />
       <UrgencyOffer />
+      <Solution />
       <WhyTrustUs />
       <Portfolio />
       <FinalCTA />
