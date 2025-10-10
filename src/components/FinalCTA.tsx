@@ -1,5 +1,6 @@
 import { ArrowRight, MessageCircle, CheckCircle } from 'lucide-react';
 import { useState } from 'react';
+import { supabase } from '../lib/supabase';
 
 export default function FinalCTA() {
   const [formData, setFormData] = useState({
@@ -24,10 +25,42 @@ export default function FinalCTA() {
     setIsSubmitting(true);
     setSubmitMessage('');
 
-    // Simulate form submission
-    setTimeout(() => {
-      setSubmitMessage('Thank you! We will contact you soon.');
-      setIsSubmitting(false);
+    try {
+      const { error: dbError } = await supabase
+        .from('form_submissions')
+        .insert([{
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          business_name: formData.businessName,
+          location: formData.location,
+        }]);
+
+      if (dbError) throw dbError;
+
+      const edgeFunctionUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-whatsapp-notification`;
+
+      const response = await fetch(edgeFunctionUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          businessName: formData.businessName,
+          location: formData.location,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (data.success && data.whatsappUrl) {
+        window.open(data.whatsappUrl, '_blank');
+      }
+
+      setSubmitMessage('Thank you! Your inquiry has been submitted. We will contact you soon.');
       setFormData({
         name: '',
         email: '',
@@ -35,7 +68,12 @@ export default function FinalCTA() {
         businessName: '',
         location: ''
       });
-    }, 1000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitMessage('There was an error submitting your form. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleGetStarted = () => {
@@ -160,7 +198,11 @@ export default function FinalCTA() {
           </button>
 
           {submitMessage && (
-            <div className="mt-4 p-4 bg-green-500/20 border border-green-400 rounded-lg text-green-100 text-center">
+            <div className={`mt-4 p-4 border rounded-lg text-center ${
+              submitMessage.includes('error')
+                ? 'bg-red-500/20 border-red-400 text-red-100'
+                : 'bg-green-500/20 border-green-400 text-green-100'
+            }`}>
               {submitMessage}
             </div>
           )}
