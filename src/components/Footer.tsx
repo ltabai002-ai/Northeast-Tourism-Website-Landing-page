@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/ltabai logo copy.jpg"
+                src="/ltan cropped logo.jpg"
                 alt="LTAB Logo"
                 className="w-12 h-12 object-contain rounded-lg"
               />
