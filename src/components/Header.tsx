@@ -17,7 +17,7 @@ export default function Header() {
               className="h-12 w-12 object-contain rounded-lg"
             />
             <h1 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500">
-              LTAB AI
+              Ltab Ai
             </h1>
           </div>
           <button

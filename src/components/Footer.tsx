@@ -12,7 +12,7 @@ export default function Footer() {
                 alt="LTAB Logo"
                 className="w-12 h-12 object-contain rounded-lg"
               />
-              <span className="text-xl font-bold text-white">LTAB AI</span>
+              <span className="text-xl font-bold text-white">Ltab Ai</span>
             </div>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Empowering Northeast Tourism Through Technology
