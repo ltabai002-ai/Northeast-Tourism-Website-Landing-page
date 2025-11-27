@@ -74,10 +74,6 @@ export default function Portfolio() {
     <section id="portfolio" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-sky-100 text-sky-700 px-6 py-3 rounded-full mb-6 font-semibold">
-            <Star className="w-5 h-5" />
-            Real Results
-          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Our Work Speaks for Itself
           </h2>
