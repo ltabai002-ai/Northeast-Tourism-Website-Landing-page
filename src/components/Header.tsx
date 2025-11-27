@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
             <img
-              src="/ltab-logo.jpg"
+              src="/ltan cropped logo.jpg"
               alt="LTAB AI Logo"
               className="h-12 w-12 object-contain rounded-lg"
             />
