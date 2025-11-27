@@ -1,5 +1,5 @@
 const businesses = [
-  { type: 'image', src: '/travel agency.webp', label: 'Travel Agencies', color: 'from-sky-500 to-blue-500' },
+  { type: 'image', src: '/05 copy.jpg', label: 'Travel Agencies', color: 'from-sky-500 to-blue-500' },
   { type: 'image', src: '/download.png', label: 'Hotels & Homestays', color: 'from-teal-500 to-green-500' },
   { type: 'image', src: '/download (1).png', label: 'Cafés & Restaurants', color: 'from-orange-500 to-red-500' },
   { type: 'image', src: '/download copy.jpg', label: 'Handicrafts', color: 'from-purple-500 to-pink-500' },
@@ -28,7 +28,7 @@ export default function WhoThisIsFor() {
                   <img
                     src={business.src}
                     alt={business.label}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 text-center">{business.label}</h3>
