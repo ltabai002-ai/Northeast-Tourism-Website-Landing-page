@@ -25,7 +25,7 @@ Deno.serve(async (req: Request) => {
   try {
     const { name, email, phone, businessName, location }: FormSubmission = await req.json();
 
-    const whatsappNumber = "919859641115";
+    const whatsappNumber = "916000683808";
     const message = `🌟 New Website Inquiry!\n\n👤 Name: ${name}\n📧 Email: ${email}\n📱 Phone: ${phone}\n🏢 Business: ${businessName}\n📍 Location: ${location}\n\n✅ Submitted at: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
 
     const encodedMessage = encodeURIComponent(message);
