@@ -1,12 +1,8 @@
-import { ArrowRight, Eye } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const scrollToContact = () => {
     document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const scrollToPortfolio = () => {
-    document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -37,14 +33,6 @@ export default function Hero() {
             >
               Get My Website Now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-
-            <button
-              onClick={scrollToPortfolio}
-              className="group px-8 py-4 bg-white/10 backdrop-blur-md text-white font-semibold rounded-full text-lg border-2 border-white/30 hover:bg-white/20 transition-all duration-300 flex items-center gap-2"
-            >
-              <Eye className="w-5 h-5" />
-              See Our Work
             </button>
           </div>
         </div>
