@@ -4,7 +4,7 @@ const businesses = [
   { type: 'image', src: '/cafe & restaurants.webp', label: 'Cafés & Restaurants', color: 'from-orange-500 to-red-500' },
   { type: 'image', src: '/download copy.jpg', label: 'Handicrafts', color: 'from-purple-500 to-pink-500' },
   { type: 'image', src: '/download (2).png', label: 'Rental Services', color: 'from-yellow-500 to-orange-500' },
-  { type: 'image', src: '/download (3).png', label: 'Event Organizers', color: 'from-indigo-500 to-purple-500' },
+  { type: 'image', src: '/Event Organizers.webp', label: 'Event Organizers', color: 'from-indigo-500 to-purple-500' },
 ];
 
 export default function WhoThisIsFor() {
