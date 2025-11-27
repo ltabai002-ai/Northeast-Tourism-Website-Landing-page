@@ -19,7 +19,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/ltabindia"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 hover:bg-teal-600 flex items-center justify-center transition-colors duration-300"
                 aria-label="Facebook"
               >
