@@ -28,7 +28,7 @@ export default function WhoThisIsFor() {
                   <img
                     src={business.src}
                     alt={business.label}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 text-center">{business.label}</h3>
