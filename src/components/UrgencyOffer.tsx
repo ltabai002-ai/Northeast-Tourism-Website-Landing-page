@@ -65,9 +65,9 @@ export default function UrgencyOffer() {
                 <div className="flex items-start gap-3">
                   <Zap className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-2 text-lg">Limited Offer — Only for 25 Northeast Businesses</h4>
+                    <h4 className="font-bold text-gray-900 mb-2 text-lg">Limited Offer — Only for First 2 Months</h4>
                     <p className="text-gray-700">
-                      We're launching this special pricing for the first 25 tourism businesses from Northeast India. Once spots are filled, pricing returns to ₹1,999/month.
+                      We're launching this special pricing for the first 2 months only for tourism businesses from Northeast India. After this period, pricing returns to ₹1,999/month.
                     </p>
                   </div>
                 </div>
