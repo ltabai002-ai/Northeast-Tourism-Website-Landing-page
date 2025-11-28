@@ -36,13 +36,6 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 hover:bg-blue-600 flex items-center justify-center transition-colors duration-300"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
             </div>
           </div>
 
