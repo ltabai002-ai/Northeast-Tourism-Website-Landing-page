@@ -1,5 +1,5 @@
 const businesses = [
-  { type: 'image', src: '/Travel Agency.webp', label: 'Travel Agencies', color: 'from-sky-500 to-blue-500' },
+  { type: 'image', src: '/Travel Agency copy.webp', label: 'Travel Agencies', color: 'from-sky-500 to-blue-500' },
   { type: 'image', src: '/hotels & homestays.webp', label: 'Hotels & Homestays', color: 'from-teal-500 to-green-500' },
   { type: 'image', src: '/cafe & restaurants.webp', label: 'Cafés & Restaurants', color: 'from-orange-500 to-red-500' },
   { type: 'image', src: '/handicrafts.webp', label: 'Handicrafts', color: 'from-purple-500 to-pink-500' },
